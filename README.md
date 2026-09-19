@@ -110,7 +110,7 @@ Python, pandas, NumPy, SciPy, scikit-learn, Prophet, statsmodels, Plotly, Matplo
 ## Run it
 
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy scipy scikit-learn prophet statsmodels plotly matplotlib pyxlsb openpyxl
 ```
 
-Open a notebook in `notebooks/`, update the dataset path, and run all cells.
+Open a notebook, update the dataset path, and run all cells.
