@@ -7,13 +7,11 @@ Completed as part of the Misk Skills × stc data analyst virtual experience.
 ## Repository structure
 
 ```
-├── notebooks/
-│   ├── StcTV_User_Analysis.ipynb        # Task 1: viewing behavior analysis
-│   ├── Viewing_Prediction_Model.ipynb   # Task 2: watch-hours forecasting (Prophet)
-│   └── stc_TV_Task3_Recommender.ipynb   # Task 3: recommender (KNN + cosine)
-├── requirements.txt
+├── StcTV_User_Analysis.ipynb        # Task 1: viewing behavior analysis
+├── Viewing_Prediction_Model.ipynb   # Task 2: watch-hours forecasting (Prophet)
+├── stc_TV_Task3_Recommender.ipynb   # Task 3: recommender (KNN + cosine)
 └── README.md
-```
+``
 
 ## Data
 
