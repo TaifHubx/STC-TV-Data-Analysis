@@ -11,7 +11,6 @@ Completed as part of the Misk Skills × stc data analyst virtual experience.
 │   ├── StcTV_User_Analysis.ipynb        # Task 1: viewing behavior analysis
 │   ├── Viewing_Prediction_Model.ipynb   # Task 2: watch-hours forecasting (Prophet)
 │   └── stc_TV_Task3_Recommender.ipynb   # Task 3: recommender (KNN + cosine)
-├── images/                              # charts used in this README
 ├── requirements.txt
 └── README.md
 ```
@@ -34,8 +33,6 @@ Update the file paths in the first cells of each notebook before running (Tasks 
 
 **Questions:** which programs are watched most, how do series compare with movies, and how does HD relate to viewing?
 
-![Top programs](images/top_programs.png)
-
 **Key findings**
 - **Series create time, movies create reach.** Series account for 255,098 watch hours (71%) from 3,901 users, while movies reach 11,355 users but account for 103,444 hours.
 - **Animation leads.** 6 of the top 10 programs by watch time are animated movies. *The Boss Baby* alone has 2,961 hours and 3,389 users.
@@ -48,8 +45,6 @@ Update the file paths in the first cells of each notebook before running (Tasks 
 ## Task 2: Forecasting watch hours
 
 **Objective:** analyze viewing patterns and forecast future daily watch hours.
-
-![Forecast](images/forecast.png)
 
 **Approach**
 - EDA and seasonal decomposition (trend, weekly pattern, residuals)
@@ -87,7 +82,6 @@ Update the file paths in the first cells of each notebook before running (Tasks 
 3. **Sparse program × user matrix** (2,268 × 11,532) so it fits comfortably in memory.
 4. **Fit `NearestNeighbors(metric='cosine')`** and look up the closest programs.
 
-![Moana recommendations](images/moana_recommendations.png)
 
 | # | Program | Genre | Similarity |
 |---|---|---|---|
